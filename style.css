@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container-fluid
+{
+    background-color: #f0f2f5;
+}
+
+.container
+{
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.row
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+.colomn-1
+{
+    width: 50%;
+}
+
+.colomn-2
+{
+    width: 42%;
+    border-radius: 50px;
+}
+
+.formdiv
+{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px silver;
+}
+
+.from-contrl
+{
+    width: auto;
+    background-color: white;
+
+}
+
+.from-contrl > input
+{
+    width: 95%;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 0px 1px black;
+    background-color: white;
+
+    font-size: 18px;
+}
+
+.h1-facebook
+{
+    color: #1877f2; 
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: inherit;
+    text-transform: lowercase;
+}
+p
+{
+    font-size: 25px;
+}
+
+.btn
+{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 18px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn:hover
+{
+    background-color: #01449c;    
+}
+
+.forget
+{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+
+}
+
+.forget a
+{
+    text-decoration: none;
+    color: #01449c;
+}
+
+.createaccount
+{
+    text-align: center;
+}
+
+.createaccount button
+{
+    width: 50%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: #0fc71e;
+    border: none;
+    border-radius: 3px;
+}
+
+.createaccount button a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.createaccount button:hover
+{
+    background-color: #009c0d;
+}
+
+.p-last
+{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.p-last span
+{
+    font-weight: bolder;
+}
+
+.p-last span:hover
+{
+    text-decoration: underline;
+}
